@@ -20,8 +20,13 @@ const projects: Project[] = [
   {
     name: 'Pcenter-Backend',
     githubUrl: 'https://github.com/NxtZeus/Pcenter-back',
-    image: '',
+    image: 'images/Pcenter-back.png',
   },
+  {
+    name: 'Weather App',
+    githubUrl: 'https://github.com/NxtZeus/weather-api-app',
+    image: 'images/weather-app.png',
+  }
 ];
 
 export default function Projects() {
@@ -34,7 +39,7 @@ export default function Projects() {
           </h2>
         </div>
         <div>
-          <div className="flex flex-wrap justify-center gap-x-8 gap-y-8 mx-auto max-w-5xl">
+          <div className="flex flex-wrap justify-center gap-x-8 gap-y-8 mx-auto max-w-7xl">
             {projects.map((project) => {
               const imageUrl = project.image && project.image.trim() !== ''
                 ? project.image
@@ -42,7 +47,7 @@ export default function Projects() {
               return (
                 <div
                   key={project.name}
-                  className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 flex flex-col items-center p-6 w-full sm:w-[340px] hover:scale-105 hover:ring-2 hover:ring-blue-600 hover:ring-offset-2 hover:ring-offset-white dark:hover:ring-purple-600 dark:hover:ring-offset-gray-900"
+                  className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transition-all duration-300 flex flex-col items-center p-6 w-full sm:w-[48%] lg:w-[31%] max-w-[400px] box-border hover:scale-105 hover:ring-2 hover:ring-blue-600 hover:ring-offset-2 hover:ring-offset-white dark:hover:ring-purple-600 dark:hover:ring-offset-gray-900"
                 >
                   <div className="w-full flex justify-center mb-6">
                     <img
