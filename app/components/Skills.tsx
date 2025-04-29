@@ -27,7 +27,6 @@ const skillCategories: SkillCategory[] = [
       { name: 'Angular', icon: <SiAngular className="text-red-600" /> },
       { name: 'TailwindCSS', icon: <SiTailwindcss className="text-cyan-500" /> },
       { name: 'Bootstrap', icon: <BsFillBootstrapFill className="text-purple-700" /> },
-      { name: 'WordPress', icon: <FaWordpress className="text-blue-700" /> },
     ],
   },
   {
@@ -37,7 +36,6 @@ const skillCategories: SkillCategory[] = [
       { name: 'Django', icon: <SiDjango className="text-green-800" /> },
       { name: 'Django Rest Framework', icon: <SiDjango className="text-green-800" /> },
       { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
-      { name: 'Express', icon: <FaNodeJs className="text-green-400" /> },
       { name: 'PHP', icon: <FaPhp className="text-indigo-700" /> },
     ],
   },
