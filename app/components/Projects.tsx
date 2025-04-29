@@ -14,7 +14,7 @@ const projects: Project[] = [
   {
     name: 'Pcenter-Frontend',
     githubUrl: 'https://github.com/NxtZeus/Pcenter-front',
-    liveUrl: 'pcenter.vercel.app',
+    liveUrl: 'https://pcenter.vercel.app',
     image: 'images/Pcenter-front.png',
   },
   {
