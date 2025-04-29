@@ -13,13 +13,13 @@ const projects: Project[] = [
   
   {
     name: 'Pcenter-Frontend',
-    githubUrl: 'https://github.com/nxtzeus/tfg-frontend',
+    githubUrl: 'https://github.com/NxtZeus/Pcenter-front',
     liveUrl: 'pcenter.vercel.app',
-    image: '',
+    image: 'images/Pcenter-front.png',
   },
   {
     name: 'Pcenter-Backend',
-    githubUrl: 'https://github.com/nxtzeus/tfg-backend',
+    githubUrl: 'https://github.com/NxtZeus/Pcenter-back',
     image: '',
   },
 ];
