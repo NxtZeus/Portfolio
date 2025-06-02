@@ -36,7 +36,7 @@ const skillCategories: SkillCategory[] = [
       { name: 'Python', icon: <FaPython className="text-yellow-600" /> },
       { name: 'Django', icon: <SiDjango className="text-green-800" /> },
       { name: 'Django Rest Framework', icon: <SiDjango className="text-green-800" /> },
-      { name: 'Fastapi', icon: <SiFastapi className="text-gray-800" />},
+      { name: 'FastAPI', icon: <SiFastapi className="text-gray-800" />},
       { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
       { name: 'PHP', icon: <FaPhp className="text-indigo-700" /> },
     ],

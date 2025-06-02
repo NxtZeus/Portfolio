@@ -36,7 +36,7 @@ const projects: Project[] = [
     name: 'API Recetas',
     githubUrl: 'https://github.com/NxtZeus/recetas-fastapi',
     image: 'images/recetas-fastapi.png',
-    technologies: ['Fastapi','Python', 'SQLite']
+    technologies: ['FastAPI','Python', 'SQLite']
   },
   {
     name: 'Portfolio',
@@ -86,7 +86,7 @@ export default function Projects() {
                         'Django': SiDjango,
                         'PostgreSQL': SiPostgresql,
                         'SQLite': SiSqlite,
-                        'Fastapi': SiFastapi,
+                        'FastAPI': SiFastapi,
                         'Flask': SiFlask,
                         'NextJS': SiNextdotjs,
                         'TypeScript': SiTypescript
