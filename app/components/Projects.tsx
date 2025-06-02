@@ -1,12 +1,14 @@
 'use client';
 
 import { FaGithub, FaGlobe } from 'react-icons/fa';
+import { SiReact, SiJavascript, SiPython, SiTailwindcss, SiDjango, SiPostgresql, SiSqlite, SiFastapi, SiFlask, SiNextdotjs, SiTypescript } from "react-icons/si";  
 
 interface Project {
   name: string;
   githubUrl: string;
   liveUrl?: string;
   image?: string;
+  technologies: string[];
 }
 
 const projects: Project[] = [
@@ -16,16 +18,31 @@ const projects: Project[] = [
     githubUrl: 'https://github.com/NxtZeus/Pcenter-front',
     liveUrl: 'https://pcenter.vercel.app',
     image: 'images/Pcenter-front.png',
+    technologies: ['React', 'JavaScript', 'TailwindCSS']
   },
   {
     name: 'Pcenter-Backend',
     githubUrl: 'https://github.com/NxtZeus/Pcenter-back',
     image: 'images/Pcenter-back.png',
+    technologies: ['Python', 'Django', 'PostgreSQL']
   },
   {
     name: 'Weather App',
     githubUrl: 'https://github.com/NxtZeus/weather-api-app',
     image: 'images/weather-app.png',
+    technologies: ['Python', 'Flask', 'TailwindCSS']
+  },
+  {
+    name: 'API Recetas',
+    githubUrl: 'https://github.com/NxtZeus/recetas-fastapi',
+    image: 'images/recetas-fastapi.png',
+    technologies: ['Fastapi','Python', 'SQLite']
+  },
+  {
+    name: 'Portfolio',
+    githubUrl: 'https://github.com/NxtZeus/Portfolio',
+    image: 'images/portfolio.png',
+    technologies: ['NextJS','TypeScript', 'TailwindCSS']
   }
 ];
 
@@ -35,7 +52,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Proyectos
+            Mis Proyectos
           </h2>
         </div>
         <div>
@@ -59,6 +76,30 @@ export default function Projects() {
                   <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 text-center">
                     {project.name}
                   </h3>
+                  <div className="flex flex-wrap justify-center gap-4 mb-4">
+                    {project.technologies.map((tech) => {
+                      const IconComponent = {
+                        'React': SiReact,
+                        'JavaScript': SiJavascript,
+                        'Python': SiPython,
+                        'TailwindCSS': SiTailwindcss,
+                        'Django': SiDjango,
+                        'PostgreSQL': SiPostgresql,
+                        'SQLite': SiSqlite,
+                        'Fastapi': SiFastapi,
+                        'Flask': SiFlask,
+                        'NextJS': SiNextdotjs,
+                        'TypeScript': SiTypescript
+                      }[tech];
+                      
+                      return IconComponent ? (
+                        <div key={tech} className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-300">
+                          <IconComponent className="text-lg" />
+                          <span>{tech}</span>
+                        </div>
+                      ) : null;
+                    })}
+                  </div>
                   <div className="flex justify-center gap-8 mt-2 mb-2">
                     <a
                       href={project.githubUrl}

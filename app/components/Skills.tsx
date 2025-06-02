@@ -1,7 +1,7 @@
 'use client';
 
 import { FaReact, FaNodeJs, FaGitAlt, FaGithub, FaHtml5, FaCss3Alt, FaJs, FaPython, FaPhp } from 'react-icons/fa';
-import { SiTypescript, SiTailwindcss, SiMongodb, SiPostgresql, SiDocker, SiAngular, SiDjango, SiMysql, SiMariadb, SiPycharm, SiPostman, SiXampp, SiApachehadoop, SiApachespark, SiTensorflow, SiPandas, SiNumpy, SiJson, SiApacheairflow, SiNeo4J, SiAmazon } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiMongodb, SiPostgresql, SiDocker, SiAngular, SiDjango, SiMysql, SiMariadb, SiPycharm, SiPostman, SiXampp, SiApachehadoop, SiApachespark, SiTensorflow, SiPandas, SiNumpy, SiJson, SiApacheairflow, SiNeo4J, SiAmazon, SiFastapi, SiNextdotjs } from 'react-icons/si';
 import { TbBrandVscode } from 'react-icons/tb';
 import { PiFileXFill } from 'react-icons/pi';
 import { MdCloud } from 'react-icons/md';
@@ -24,6 +24,7 @@ const skillCategories: SkillCategory[] = [
       { name: 'JavaScript', icon: <FaJs className="text-yellow-500" /> },
       { name: 'TypeScript', icon: <SiTypescript className="text-blue-600" /> },
       { name: 'React', icon: <FaReact className="text-blue-500" /> },
+      { name: 'Next.js', icon: <SiNextdotjs className="text-gray-800" /> },
       { name: 'Angular', icon: <SiAngular className="text-red-600" /> },
       { name: 'TailwindCSS', icon: <SiTailwindcss className="text-cyan-500" /> },
       { name: 'Bootstrap', icon: <BsFillBootstrapFill className="text-purple-700" /> },
@@ -35,6 +36,7 @@ const skillCategories: SkillCategory[] = [
       { name: 'Python', icon: <FaPython className="text-yellow-600" /> },
       { name: 'Django', icon: <SiDjango className="text-green-800" /> },
       { name: 'Django Rest Framework', icon: <SiDjango className="text-green-800" /> },
+      { name: 'Fastapi', icon: <SiFastapi className="text-gray-800" />},
       { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
       { name: 'PHP', icon: <FaPhp className="text-indigo-700" /> },
     ],
