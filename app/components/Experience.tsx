@@ -9,7 +9,7 @@ export default function Experience() {
           {/* Experiencia 1 */}
           <div className="bg-white/80 dark:bg-gray-900/70 rounded-xl shadow-lg p-6 sm:p-8 flex flex-col md:flex-row md:items-center gap-6 border border-gray-100 dark:border-gray-800 transition-all duration-300 hover:scale-105 hover:ring-2 hover:ring-blue-600 hover:ring-offset-2 hover:ring-offset-white dark:hover:ring-purple-600 dark:hover:ring-offset-gray-900">
             <div className="flex-shrink-0 flex flex-col items-center md:items-start w-40 mb-4 md:mb-0">
-              <span className="text-xs sm:text-sm font-semibold text-gray-500 mb-1">03/2024 - 10/2024</span>
+              <span className="text-xs sm:text-sm font-semibold text-gray-500 mb-1">03/2024 - 06/2024</span>
               <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-1">Desarrollador Web</span>
               <span className="text-sm font-bold uppercase text-blue-900 dark:text-blue-200">Agencia Aurea</span>
             </div>
