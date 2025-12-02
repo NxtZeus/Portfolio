@@ -30,10 +30,6 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-2 text-gray-800 text-base text-center md:text-left w-full">
               <div className="flex items-center gap-2 justify-center md:justify-start">
-                <FaPhoneAlt className="text-blue-700" />
-                <span>+34 643 37 94 80</span>
-              </div>
-              <div className="flex items-center gap-2 justify-center md:justify-start">
                 <FaEnvelope className="text-blue-700" />
                 <span>rsanchezm110@gmail.com</span>
               </div>
