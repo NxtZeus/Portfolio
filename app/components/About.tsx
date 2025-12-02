@@ -1,6 +1,6 @@
 'use client';
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaBirthdayCake, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkerAlt, FaBirthdayCake, FaLinkedin } from 'react-icons/fa';
 import Image from "next/image";
 import Link from 'next/link';
 export default function About() {
